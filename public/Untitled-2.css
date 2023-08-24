@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    width: 1rem;
+    
+   
+}
+.navbar-inverse {
+    background-color: #4eb3bd;
+    border-color: #106b87;
+}
+
+body{
+   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f1f1;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230407/pngtree-blue-wallpapers-free-cyan-background-images-victor-download-vector-image_2225660.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    
+}
+#ss:hover{
+    color: white;
+
+}
+.container{
+    margin-top: 2rem;
+    margin-left: 30rem;
+    
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+img{
+    border-radius: 50%;
+    margin-top: 10%;
+
+}
+.login{
+    width: 400px;
+    background-color: #f1f1f1;
+}
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    border-top: 2px solid rgb(0, 201, 241);
+    margin-top:-5%;
+}
+
+.pic img{
+
+    width: 350px;
+    height: 80%;
+   
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#submit{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 150px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: rgb(4, 214, 229);
+    margin-left: 20%;
+    
+}
+#submit:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+p{
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
